@@ -1,0 +1,29 @@
+
+#weather
+{
+	width: 100%;
+	height: 100%;
+	float: right;
+	background: linear-gradient(to right, rgba(255,0,0,0), #722727);
+	top: 0%;
+	position: absolute;
+    z-index: 1;
+    border-radius: 4%;
+}
+#weatherIcon
+{
+	width: 30%;
+	height: 30%;
+	margin-top: 10%;
+	margin-left: 17%;
+	float: left;
+}
+#temprature
+{
+	font-family: century gothic;
+	font-size: 300%;
+	margin-right: 15%;
+	margin-top: 5%;
+	float: right;
+	color: #ffffff;
+}

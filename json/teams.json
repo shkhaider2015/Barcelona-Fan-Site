@@ -1,0 +1,44 @@
+{
+    "laliga": 
+            {
+                "teams" : 
+                [
+                    "Alavés",
+                    "Athletic Bilbao",
+                    "Atlético Madrid",
+                    "Barcelona",
+                    "Celta Vigo",
+                    "Eibar",
+                    "Espanyol",
+                    "Getafe",
+                    "Girona",
+                    "Huesca",
+                    "Leganés",
+                    "Levante",
+                    "Valencia",
+                    "Rayo Vallecan",
+                    "Real Betis",
+                    "Real Madrid"
+               ],
+               "players" :
+                {
+                    "Alavés" : [],
+                    "Athletic Bilbao" : [],
+                    "Atlético Madrid" : [],
+                    "Barcelona" : [],
+                    "Celta Vigo" : [],
+                    "Eibar" : [],
+                    "Espanyol" : [],
+                    "Getafe" : [],
+                    "Girona" : [],
+                    "Huesca" : [],
+                    "Leganés" : [],
+                    "Levante" : [],
+                    "Valencia" : [],
+                    "Rayo Vallecan" : [],
+                    "Real Betis" : [],
+                    "Real Madrid" : []
+                }
+            }
+}
+

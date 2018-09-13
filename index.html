@@ -1,0 +1,58 @@
+<html>
+<head>
+	<title> FC Barcelona Fan Page </title>
+	<link rel="stylesheet" type="text/css" href="css/Home.css">
+	<link rel="stylesheet" type="text/css" href="css/sidebar.css">
+	<link rel="stylesheet" type="text/css" href="css/weather.css">
+	<link rel="stylesheet" type="text/css" href="css/table.css">
+	<script src="javascript/home.js"> </script>
+        <script src="javascript/jquery.js"> </script>
+</head>
+
+<body onload="setup()">
+  <div id="main" >
+  <div id="head" onclick="">
+	<div id="Manu">	
+            <p id="time">Time</p>
+		<img id="manuIcon" src="images/icons/manu.png" alt="ManuIcon.png" onClick="visibility(event, 1)">
+		<img id="searchIcon" src="images/icons/search.png" alt="saerchIcon.png" onclick="visibility(event, 2)">
+		<input id="search" type="text" name="search">
+	</div>
+	<div id="slide" class="slideBar">
+		<ul id="sideElements">
+			<li><a href="#" id="Schedule" class="elements">Schedule </a></li>
+			<li><a href="#" id="NextMatch" class="elements">Next Match</a></li>
+			<li><a href="#" id="Videos" class="elements">Videos</a></li>
+			<li><a href="#" id="Wallpapers" class="elements">Wallpapers</a></li>
+			<li><a href="#" id="Store" class="elements">Store</a></li>
+			<li><a href="#" id="About" class="elements">About</a></li>
+	    </ul>
+	</div>
+	</div>
+	<div id="tummy">
+			<table id="table">
+				<tr id="row1">
+					<td class="cell" id="cell1" rowspan="2">
+						
+					</td>
+					
+					<td class="cell" id="cell2">
+						<div id="weather">
+							<img id="weatherIcon" src="images/icons/weather/004-sun-1.png" alt="png/004-sun-1.png">
+							<p id="temprature">?</p>
+						</div>
+					</td>
+					
+				</tr>
+				<tr id="row2">
+					<td class="cell" id="cell3">
+						
+					</td>
+					
+				</tr>
+			</table>
+	</div>
+		
+  </div>
+</body>
+</html>

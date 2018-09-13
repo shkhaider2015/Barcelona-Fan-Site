@@ -12,18 +12,18 @@
 }
 #weatherIcon
 {
-	width: 30%;
+	width: 45%;
 	height: 30%;
-	margin-top: 10%;
-	margin-left: 17%;
+	margin-top: 05%;
+	margin-left: 05%;
 	float: left;
 }
 #temprature
 {
 	font-family: century gothic;
 	font-size: 300%;
-	margin-right: 15%;
-	margin-top: 5%;
+	margin-right: 5%;
+	margin-top: 10%;
 	float: right;
 	color: #ffffff;
 }

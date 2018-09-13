@@ -99,7 +99,14 @@ function weatherCallback(weatherData)
     console.log(weatherData.main.temp);
     document.getElementById("temprature").innerHTML = weatherData.main.temp+"&#176;";
 }
-
+function weatherIcon(x)
+{
+    var image = document.getElementById("weatherIcon");
+    if(x <= 6 || x >=19)
+    {
+        image.src = "images/icons/weather/017-night.png";
+    }
+}
 function time()
 {
 	var date = new Date();
@@ -108,6 +115,7 @@ function time()
 	 var sc = date.getSeconds();
          var ampm = "am";
          
+         weatherIcon(hr);
          if(mn < 10)
          {
              mn = "0" + mn;
